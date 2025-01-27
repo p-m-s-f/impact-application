@@ -1,3 +1,5 @@
+/*  GLOBAL ADJUSTMENTS  */
+
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
 body {
@@ -22,6 +24,11 @@ body a {
     display: flex;
 }
 
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*  TITLE ADJUSTMENTS  */
+
 #title {
     width: 50%;
     position: absolute;
@@ -42,6 +49,11 @@ body a {
 #tile h1 a:hover {
     font-weight: 200;
 }
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*  MAIN AND NAV BAR  */
 
 #main {
     position: absolute;
@@ -89,6 +101,10 @@ nav ul li a:hover {
     display: block;
 }
 
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*  CONTENT  */
 
 .content {
     padding: 0 3.6%;
@@ -109,6 +125,8 @@ nav ul li a:hover {
     font-size: 2.5em;
     margin-bottom: 0;
 }
+
+/*  PROJECTS SECTION  */
 
 #UI-slideshow-embed {
     margin: auto;
@@ -134,6 +152,8 @@ nav ul li a:hover {
     -webkit-transform-origin: 0 0;
 }
 
+/*  APPLICATION SECTION  */
+
 .resume-container {
     display: flex;
     justify-content: space-between;
@@ -148,6 +168,7 @@ nav ul li a:hover {
     width: 100%;
 }
 
+/*  ABOUT SECTION  */
 
 #self-portraits {
     width: 60%;
@@ -160,6 +181,8 @@ nav ul li a:hover {
 #self-portraits img {
     width: 31%;
 }
+
+/*  BACKGROUND IMAGE/ABSTRACT  */
 
 #abstract img {
     margin: 5% 0% 0% 0%;
