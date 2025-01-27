@@ -1,3 +1,5 @@
+<!-- Why hello there! Fancy meeting you here. Here's a treat for you, inquisitive viewer: I wrote most of this site well listening to Chicago's 25 or 6 to 4 on repeat. -->
+
 <head>
     <title>Parris for Impact</title>
     <link rel="stylesheet" href="style.css">
@@ -16,7 +18,6 @@
     
 
     <div id="main">
-        <!-- <div id="nav-container"> !-->
             <nav><ul>
                 <li><a href="#top">projects</a></li>
                 <li id="nav-bullet"><img src="site-images/bullet0.png" alt="•"></li>
@@ -26,14 +27,13 @@
                 <li id="nav-bullet"><img src="site-images/bullet0.png" alt="•"></li>
                 <li><a href="#about">about</a></li>
             </ul></nav>
-        <!-- </div> -->
 
         <div id="top"></div> <!-- An entirely empty div. The title links to it as a go-back button-->
         <div class="content">
             <br> <!-- there is probably a more elegant solution to create this spacing -->
+            <br> <!-- i've concocted a sly solution to the navigation problem: the jump divs are placed slightly above the actual destination in the html file. i feel like a magician :] -->
             <br>
-            <br>
-            <br>
+
             <h2>DESIGN PROJECTS</h2> <!-- REMINDER: adjust nav bar hopping -->
             <p>This site is a <strong>work in progress!</strong></p>
 
@@ -74,29 +74,41 @@
                 additional image-processing performed using <strong>Adobe Photoshop</strong>. Each slide below
                 represents a two-page spread in the hypothetical travelogue:
             </p>
-
+            <div id="skills"></div> <!-- An empty div for navigation -->
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTOoOrXfS_a1F3NO_q1vQtnyjqBPEIJY5ckh2Hq-YWfs1ZZtHrpQuG9YQsNpRPbTCg0y7-wI1WYAc4k/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" id="UI-travelogue-embed"></iframe>
+            
 
-            <h2 id="skills">SKILLS</h2>
-            <p>Text will be going here!</p>
-            <p>Text will be going here!</p>
-            <p>Text will be going here!</p>
-            <p>Text will be going here!</p>
-            <p>Text will be going here!</p>
-            <p>Text will be going here!</p>
-            <p>Text will be going here!</p>
-            <p>Text will be going here!</p>
-            <h2 id="application">APPLICATION</h2>
+            <h2>SKILLS</h2>
             <p>
-                You can view my cover letter and resume by clicking on a preview. References and my
+                As demonstrated by my design projects, I'm profficient with design tools like <strong>Figma, InDesign,
+                </strong>and<strong> Photoshop.</strong>
+            </p>
+            <div id="application"></div> <!-- An empty div for navigation -->
+            <p>
+                Beyond design skills, coursework at UVic has expanded my technical skills to cover a broad range of
+                subjects. I'm familiar with programming in <strong>Python, C, C++,</strong> and <strong>Java</strong>,
+                as well as <strong>shell scripting</strong> in <strong>Bash</strong> (and even
+                <strong>assembly</strong>).
+            </p>
+            <p>
+                Through my internship at <strong>ValidMind</strong>, I earned hands-on frontend dev experience. I worked
+                with static site generators and version control systems through <strong>Quarto</strong> and
+                <strong>Git</strong>, respectively. 
+            </p>
+            
+
+            <h2>APPLICATION</h2>
+            <p>
+                You can view my cover letter and resume by clicking on the previews below. References and my
                 administrative transcript are available upon request.
             </p>
             <div class="resume-container">
                 <a href="application-materials/SAASQUATCH COVER LETTER.pdf" target="blank_" id="resume-spacing"><img src="application-materials/pmsf-cover-letter.png" alt="A .png of my cover letter" id="resume"></a>
-                <!--TODO: REPLACE FIRST RESUME WITH COVER LETTER!!!-->
+                <div id="about"></div> <!-- An empty div for navigation -->
                 <a href="application-materials/PMSF RESUME.pdf" target="blank_"><img src="application-materials/pmsf-resume.png" alt="A .png of my resume" id="cover-letter"></a>
             </div>
-            <h2 id="about">ABOUT</h2>
+            
+            <h2>ABOUT</h2>
 
             <br>
             <div class="flex-container" id="self-portraits">
