@@ -85,7 +85,7 @@ nav ul li a:hover {
 
 #nav-bullet img {
     width: 1em;
-    margin: auto;
+    margin: auto;   
     display: block;
 }
 
@@ -98,6 +98,10 @@ nav ul li a:hover {
 .content p {
     overflow-wrap: break-word;
     scroll-snap-align: left;
+}
+
+.content p a{
+    text-decoration: underline;
 }
 
 .content h2 {
