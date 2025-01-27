@@ -116,6 +116,12 @@ nav ul li a:hover {
     height: 85%;
 }
 
+#UI-travelogue-embed {
+    margin: auto;
+    width: 100%;
+    height: 60.25%;
+}
+
 #portfolio-embed {
     width: 125%;
     height: 85%;
@@ -140,6 +146,19 @@ nav ul li a:hover {
 
 #resume, #cover-letter {
     width: 100%;
+}
+
+
+#self-portraits {
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#self-portraits img {
+    width: 31%;
 }
 
 #abstract img {
