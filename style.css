@@ -92,6 +92,7 @@ nav ul li a:hover {
 
 .content {
     padding: 0 3.6%;
+    overflow-x: hidden !important;
 }
 
 .content p {
@@ -114,7 +115,6 @@ nav ul li a:hover {
 #portfolio-embed {
     width: 125%;
     height: 85%;
-    overflow: hidden;
     border: none;
     -moz-transform: scale(0.8);
     -moz-transform-origin: 0 0;
@@ -122,6 +122,20 @@ nav ul li a:hover {
     -o-transform-origin: 0 0;
     -webkit-transform: scale(0.8);
     -webkit-transform-origin: 0 0;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#resume-spacing  {
+    margin-right: 3%;
+}
+
+#resume, #cover-letter {
+    width: 100%;
 }
 
 #abstract img {
